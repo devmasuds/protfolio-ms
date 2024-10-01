@@ -1,0 +1,126 @@
+
+.about-menu {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding:50px 0;
+}
+
+.about-me-item {
+    position: relative;
+    transition: .3s;
+    h3{
+        font-size: 50px;
+        font-weight: 500;
+        margin-bottom: 50px;
+        color: rgb(172, 162, 162);
+        font-family: "Roboto";
+        font-style: normal;
+    }
+}
+.about-me {
+    background-color: #000;
+}
+.about-me-text{
+    position: relative;
+   width: 60%;
+    transition: .4s;
+    p{
+        font-size: 22px;
+        font-weight: 200;
+        color: rgb(172, 162, 162);
+        font-family: "Jost";
+        font-style: normal;
+    }
+    display: block;
+    align-items: center;
+}
+.code-spher{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed rgb(172, 162, 162);
+}
+.lead-lard {
+    margin-top: 40px;
+    margin-bottom: 3px;
+    h4{
+       text-transform:capitalize;
+       margin-bottom: 5px;
+       font-size: 25px;
+       color: white;
+       font-family: "Roboto";
+       font-style: normal;
+    }
+    span{
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #00abf0;
+        font-family: "Roboto";
+        font-style: normal;
+    }
+}
+.about-me-item{
+    img{
+        position: relative;
+    }
+}
+.about-me-item {
+    width: 40%;
+h1{
+    font-size: 49px;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 900;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    color: #00abf0;
+    writing-mode: vertical-lr;
+}
+  }
+.about-me-item::after
+ {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    animation: showRigth  1s ease forwards;
+    animation-delay: .4s;
+z-index: 1;
+
+}
+.about-me-text::after
+ {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    animation: showRigth  1s ease forwards;
+    animation-delay: .5s;
+z-index: 1;
+
+}
+
+
+.about-me-item  {
+img{
+    filter: brightness();
+}
+}
+
+.ongoin{
+    h6{
+        font-size: 20px;
+        color: #a09999;
+        font-family: "Roboto";
+        font-style: normal;
+    }
+}
+

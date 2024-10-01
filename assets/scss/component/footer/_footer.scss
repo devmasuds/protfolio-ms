@@ -1,0 +1,31 @@
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+    .footer-section{
+        background: #000;
+        color: white;
+        padding: 50px 0;
+    }
+    .footer-icons{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 7px 7px;
+            border-radius: 50%;
+            background-color: #fff;
+            color: #00abf0;
+            font-size: 22px;
+            transition: .3s;
+            &:hover {
+                background: #00abf0;
+                color: white;
+            }
+        }
+    }

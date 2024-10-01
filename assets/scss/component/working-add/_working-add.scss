@@ -1,0 +1,81 @@
+.working-add{
+    padding: 100px 0;
+    background: #000;
+    
+}
+.working-menu{
+    position: relative;
+}
+.valuable-feed{
+    
+    h2{
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #00abf0;
+        font-family: "Roboto";
+        font-style: normal;
+        text-transform: capitalize;
+        margin-bottom: 50px;
+        strong{
+            color: white;
+        }
+    }
+    p{
+        max-width: 400px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.7;
+        color: #ffffff;
+        font-family: "sans-serif";
+        text-transform: capitalize;
+        margin-bottom: 30px;
+    }
+    span{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.7;
+        color: #00abf0;
+        font-family: "sans-serif";
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    
+}
+
+.valuable-img{
+    img{
+        aspect-ratio: 1/1;
+    }
+}
+.valuable-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    position: absolute;
+    bottom: -50px;
+    left: 80px;
+    border: 1px solid #00abf0;
+    color: #00abf0;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+}
+.valuable-prev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    
+    position: absolute;
+    bottom: -50px;
+    left: 0px;
+    border: 1px solid #00abf0;
+    color: #00abf0;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+}
