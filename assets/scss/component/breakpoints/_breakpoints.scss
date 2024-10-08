@@ -39,6 +39,14 @@
       .about-me-item {
         width: 45%;
       }
+      .footer-section{
+        background: #000;
+        color: white;
+        padding: 50px 7%;
+    }
+    .header-menu{
+      padding: 20px 7%;
+  }
 }
 
 /* Extra large devices (large desktops, 1280px and up) */
@@ -83,6 +91,14 @@
   .about-me-item {
     width: 50%;
   }
+  .footer-section{
+    background: #000;
+    color: white;
+    padding: 50px 5%;
+}
+.header-menu{
+  padding: 20px 5%;
+}
 }
 
 
@@ -219,6 +235,14 @@ a {
     top: 20px;
     right: 20px;
   }
+  .footer-section{
+    background: #000;
+    color: white;
+    padding: 50px 3%;
+}
+.header-menu{
+  padding: 20px 3%;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -377,5 +401,27 @@ a {
   }
   .home-content p {
     font-size: 10px;
+  }
+  .top-bottom.active {
+    bottom: 50px;
+    right: 30px;
+  }
+  .footer-icons {
+    gap: 9px;
+  }
+  .footer-section {
+    h6{
+      font-size: 12px;
+    }
+  }
+  .footer-icons a {
+    font-size: 12px;
+  }
+  .top-bottom {
+    height: 40px;
+    width: 40px;
+  }
+  .top-bottom {
+    font-size: 19px;
   }
 }
