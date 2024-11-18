@@ -325,7 +325,7 @@
   z-index: 1;
 }
 
-.btn-box a::after {
+.btn-box::after {
   content: "";
   position: absolute;
   top: 0;
