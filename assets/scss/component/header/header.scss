@@ -277,7 +277,20 @@ z-index: 1;
 z-index: 1;
 
 }
+.btn-box a::after
+ {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    animation: showRigth  1s ease forwards;
+    animation-delay: .3s;
+z-index: 1;
 
+}
 .box-icons a:hover{
     color: #081b29;
 }
